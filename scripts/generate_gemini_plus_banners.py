@@ -418,6 +418,31 @@ VARIANTS = {
         "stack_shadow": False,
         "blur_backdrop": 0,
     },
+    "v1-2x-shorter": {
+        # Same large look as v1-2x, but stack height reduced by ~23%
+        # (77% of 484px → ~371px) so panels clear character faces.
+        # Vertical metrics ×0.77; column slightly narrowed from 680→560
+        # so stacks stay in outer margins and do not cover faces.
+        "col_w": 560,
+        "gap": 15,
+        "radius": 22,
+        "panel_fill": (32, 32, 36, 165),
+        "panel_border": (255, 255, 255, 55),
+        "border_w": 2,
+        "pad_x": 18,
+        "row_h": 86,
+        "half_h": 74,
+        "btn_h": 80,
+        "title_size": 40,
+        "body_size": 20,
+        "btn_size": 28,
+        "icon_sz": 32,
+        "cal_sz": 34,
+        "margin_x": 20,
+        "margin_y": None,
+        "stack_shadow": False,
+        "blur_backdrop": 0,
+    },
 }
 
 
