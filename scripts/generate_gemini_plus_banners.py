@@ -394,6 +394,30 @@ VARIANTS = {
         "blur_backdrop": 1,
         "frost_alpha": 70,
     },
+    "v1-2x": {
+        # Exact v1 style/opacity/colors, panels + fonts at ~2× scale.
+        # Slightly tighter edge margin (16 vs 28) so 680px columns stay
+        # in the outer margins and clear of character faces.
+        "col_w": 680,
+        "gap": 20,
+        "radius": 28,
+        "panel_fill": (32, 32, 36, 165),
+        "panel_border": (255, 255, 255, 55),
+        "border_w": 2,
+        "pad_x": 24,
+        "row_h": 112,
+        "half_h": 96,
+        "btn_h": 104,
+        "title_size": 56,
+        "body_size": 30,
+        "btn_size": 40,
+        "icon_sz": 44,
+        "cal_sz": 48,
+        "margin_x": 16,
+        "margin_y": None,
+        "stack_shadow": False,
+        "blur_backdrop": 0,
+    },
 }
 
 
